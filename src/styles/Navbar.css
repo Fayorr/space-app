@@ -183,6 +183,7 @@ font-family: "Barlow Condensed";
         height: 50px;
         margin-left: 7.4rem;
         position: absolute;
+        z-index:10;
     }
     .nav-menu{
         width: 60%;
