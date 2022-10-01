@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div className="container">
       <Navbar />
-      <div className="home">
-        <div className="info">
+      <div className="homee">
+        <div className="infoo">
           <h5>So, you want to travel to</h5>
           <h1>Space</h1>
           <p>

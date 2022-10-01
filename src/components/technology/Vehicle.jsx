@@ -5,8 +5,8 @@ import Img2 from "../../assets/technology/image-launch-vehicle-landscape.jpg";
 
 const Vehicle = () => {
   return (
-       <div className="tech-info">
-      <div className="tech-det">
+    <div className="tech-info">
+      <div className="tech-dett">
         <h6>The terminology...</h6>
         <h3>Launch vehicle</h3>
         <p>

@@ -5,7 +5,7 @@ import Img2 from "../../assets/technology/image-spaceport-landscape.jpg";
 const Spaceport = () => {
   return (
     <div className="tech-info">
-      <div className="tech-det">
+      <div className="tech-dett">
         <h6>The terminology...</h6>
         <h3>Spaceport</h3>
         <p>
@@ -23,4 +23,4 @@ const Spaceport = () => {
   )
 }
 
-export default Spaceport
+export default Spaceport;

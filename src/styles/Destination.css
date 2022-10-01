@@ -11,7 +11,9 @@
     flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: auto;
 }
+
 .navigation h5 {
         text-transform: uppercase;
         font-style: normal;
@@ -20,7 +22,7 @@
         line-height: 33px;
         letter-spacing: 4.725px;
         color: #d0d6f9;
-        margin-top: 6.5rem ;
+        padding-top: 3.5rem ;
 }
 .navigation h5 > span {
     font-style: normal;

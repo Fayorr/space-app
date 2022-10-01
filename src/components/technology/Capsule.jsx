@@ -5,7 +5,7 @@ import Img2 from "../../assets/technology/image-space-capsule-landscape.jpg";
 const Capsule = () => {
   return (
     <div className="tech-info">
-      <div className="tech-det">
+      <div className="tech-dett">
         <h6>The terminology...</h6>
         <h3>Space capsule</h3>
         <p>

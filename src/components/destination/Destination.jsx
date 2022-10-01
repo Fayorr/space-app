@@ -9,7 +9,7 @@ const Destination = () => {
   return (
     <div className='des-container'>
          <Navbar />
-        <div className="navigation">
+        <div className="navigation ">
           <h5>
             <span>01</span> Pick your destination
           </h5>

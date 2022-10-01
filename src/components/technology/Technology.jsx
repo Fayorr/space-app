@@ -15,12 +15,12 @@ const Technology = () => {
         </h5>
       </div>
       <div className="content">
-        <div className="btn">
+        <div className="btnn">
           <NavLink to="/technology/vehicle">
             <button>1</button>
           </NavLink>
 
-          <NavLink to="/technology/port">
+          <NavLink to="/technology/spaceport">
             <button>2</button>
           </NavLink>
           <NavLink to="/technology/capsule">
