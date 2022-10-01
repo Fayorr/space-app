@@ -17,14 +17,14 @@ function App() {
   return ( 
    <>
       <Routes>
-      <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="*" element={<Notfound />} />
 
-      <Route path="/destination/*" element={<Destination />}>
-        <Route path="moon" element={<Moon />} />
-        <Route path="mars" element={<Mars />} />
-        <Route path="europa" element={<Europa />} />
-        <Route path="titan" element={<Titan />} />
+        <Route path="/destination/*" element={<Destination />}>
+          <Route path="moon" element={<Moon />} />
+          <Route path="mars" element={<Mars />} />
+          <Route path="europa" element={<Europa />} />
+          <Route path="titan" element={<Titan />} />
       </Route>
 
       <Route path="/destination/" element={<Navigate to="/destination/moon" />} /> 

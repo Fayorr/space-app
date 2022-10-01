@@ -13,33 +13,18 @@ body {
 .logo {
     width: 100%;
 }
-nav {
+.nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1.3rem 1.9rem;
-    position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 50;
-
 }
-nav h2 {
-    font-size: 1.3rem;
-    color: #fff;
-}
-.menu-icon {
+.menu-icon{
     display: block;
-    transition: all 1000ms ease;
-    font-size: 2rem;
-    
+    z-index: 11;
 }
-.nav-item {
-    list-style-type: none;
-    text-align: left;
-
-}
-
 .nav-menu {
     width: 55%;
     height: 100vh;
@@ -55,6 +40,7 @@ nav h2 {
 }
 .nav-menu.nav-active {
     display: block;
+    z-index: 10;
 }
 .nav-item {
     display: flex;
@@ -62,6 +48,8 @@ nav h2 {
     justify-content: space-between;
     align-items: flex-start;
     padding: .5rem 2rem;
+    list-style-type: none;
+    text-align: left;
 }
 .nav-item a {
     text-decoration: none;
@@ -71,40 +59,30 @@ nav h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 2.700000047683716px;
+    letter-spacing: 2.7px;
     text-align: left;
 }
-.bars {
-    display: block;
-    transition: all 1000ms ease;
-    width: 5.5%;
-    position: absolute;
-    top: 39%;
-    right: 2rem;
-}
+
 .number{
     font-family: "Barlow Condensed";
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    letter-spacing: 2.700000047683716px;
     text-align: left;
     color: #ffffff;
 }
-
 ul > li > a:hover {
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-ul > li > .active {
+/* ul > li > .active {
     border-bottom: 3px solid #fff;
     transition: ease-in;
     transition-duration: 200ms;
-}
-
+} */
 @media screen and (min-width: 769px) {
-
-    nav {
+    
+    .nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -113,7 +91,7 @@ ul > li > .active {
         height: 6rem;
         padding-right: 0;
     }
-
+    
     nav div {
         display: flex;
         justify-content: space-between;
@@ -121,12 +99,12 @@ ul > li > .active {
         width: 100%;
         top: 0;
     }
-
-
+    
+    
     .nav-menu.nav-active {
         display: flex;
     }
-
+    
     .nav-menu {
         display: flex;
         flex-direction: row;
@@ -143,15 +121,15 @@ ul > li > .active {
         padding: 0;
         
     }
- .nav-item a {
-    margin-top: 2rem;
-    padding: 0rem 1rem 2.7rem;
-    height: 100%;
- }
- .menu-icon {
+    .nav-item a {
+        margin-top: 2rem;
+        padding: 0rem 1rem 2.7rem;
+        height: 100%;
+    }
+    .menu-icon {
         display: none;
     }
-
+    
     .logo {
         width: 7%;
         display: flex;

@@ -32,7 +32,7 @@
     mix-blend-mode: normal;
     opacity: 0.25;
 }
-.planets ul{
+.planets ol{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,7 +45,7 @@
     list-style: none;
  
 }
-.planets ul li a{
+.planets ol li a{
         text-decoration: none;
         color: #d0d6f9;
         padding-bottom: 0.3rem;
@@ -54,6 +54,15 @@
         font-weight: 400;
         line-height: 19px;
         letter-spacing: 2.7px;
+}
+ol>li>a:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+ol>li>.active {
+    border-bottom: 3px solid #fff;
+    transition: ease-in;
+    transition-duration: 200ms;
 }
 /* .planets ul li a:hover, .planets ul li a:active{
     border-bottom: 3px solid rgba(255, 255, 255);
@@ -76,7 +85,7 @@
         align-self: flex-start;
         padding: 2rem 3.1rem;
     }
-    .planets ul{
+    .planets ol{
         width: 32%;
         /* position: absolute; */
         top: 50%;
@@ -97,7 +106,7 @@
         .navigation {
             padding: 6rem 9.1rem 3rem;
         }
-.planets ul {
+.planets ol {
     width: 18.5%;
     margin: 0 1.5rem;
     top: 57%;

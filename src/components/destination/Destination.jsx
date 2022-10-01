@@ -2,13 +2,7 @@ import React, {useState} from 'react'
 import { NavLink, Outlet } from 'react-router-dom';
 import Navbar from '../Navbar'
 import '../../styles/Destination.css'
-// import '../../styles/Navbar.css'
 
-// const [select, setSelect] = useState(false);
-
-const handleClick = () => {
-  
-}
 
 
 const Destination = () => {
@@ -21,7 +15,7 @@ const Destination = () => {
           </h5>
       </div>
       <div className="planets">
-        <ul>
+        <ol>
           <li>
             <NavLink to="/destination/moon">Moon</NavLink>
           </li>
@@ -34,10 +28,10 @@ const Destination = () => {
           <li>
             <NavLink to="/destination/titan">Titan</NavLink>
           </li>
-        </ul>
+        </ol>
         <span className='line'></span>
-        <Outlet />
       </div>
+        <Outlet />
     </div>
   )
 }

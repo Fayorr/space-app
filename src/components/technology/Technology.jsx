@@ -27,8 +27,8 @@ const Technology = () => {
             <button>3</button>
           </NavLink>
         </div>
-        <Outlet />
       </div>
+        <Outlet />
     </div>
   )
 }
