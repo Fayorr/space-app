@@ -1,0 +1,29 @@
+
+
+.img2 {
+    display: block;
+    width: 100%;
+}
+.img1{
+    display: none;
+}
+
+@media (min-width: 769px) {
+.img2 {
+        display: block;
+    }
+
+    .img1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+.img1 {
+        display: block;
+    }
+
+    .img2 {
+        display: none;
+    }
+}

@@ -1,0 +1,107 @@
+.des-container{
+    background-image: url('../assets/destination/background-destination-mobile.jpg');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.des-container{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.navigation h5 {
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 33px;
+        letter-spacing: 4.725px;
+        color: #d0d6f9;
+        margin-top: 6.5rem ;
+}
+.navigation h5 > span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 33px;
+    letter-spacing: 4.725px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.planets ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 52%;
+    position: absolute;
+    top: 65%;
+    left: 24%;
+    margin: 0 auto;
+    list-style: none;
+ 
+}
+.planets ul li a{
+        text-decoration: none;
+        color: #d0d6f9;
+        padding-bottom: 0.3rem;
+        font-family: 'Barlow Condensed';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+}
+/* .planets ul li a:hover, .planets ul li a:active{
+    border-bottom: 3px solid rgba(255, 255, 255);
+    color: #fff;
+} */
+ 
+/* .planets ul > li:first-child{
+    border-bottom: 3px solid rgba(255, 255, 255);
+} */
+
+@media (min-width: 769px) {
+.des-container {
+        background-image: url('../assets/destination/background-destination-tablet.jpg');
+        background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: auto;
+    }
+    .navigation {
+        align-self: flex-start;
+        padding: 2rem 3.1rem;
+    }
+    .planets ul{
+        width: 32%;
+        /* position: absolute; */
+        top: 50%;
+        left: 34%;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+.des-container {
+        background-image: url('../assets/destination/background-destination-desktop.jpg');
+        background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            width: 100%;
+            height: auto;
+    }
+        .navigation {
+            padding: 6rem 9.1rem 3rem;
+        }
+.planets ul {
+    width: 18.5%;
+    margin: 0 1.5rem;
+    top: 57%;
+    left: 54%;
+}
+}
+

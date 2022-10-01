@@ -18,7 +18,6 @@ const Home = () => {
           </p>
         </div>
         <div className="explore">
-          {/* <div className="hover"></div> */}
           <button className='btn'>EXPLORE</button>
         </div>
       </div>
