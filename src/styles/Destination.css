@@ -81,16 +81,20 @@ ol>li>.active {
         background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            height: auto;
+            height: 100vh;
     }
     .navigation {
         align-self: flex-start;
         padding: 2rem 3.1rem;
     }
+    .planets{
+        background-color: red;
+        margin-top: -22rem;
+    }
     .planets ol{
         width: 32%;
         /* position: absolute; */
-        top: 50%;
+        top: 57%;
         left: 34%;
     }
 }
