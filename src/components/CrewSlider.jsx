@@ -10,14 +10,14 @@ import '../styles/Crew.css'
 const Card = ({ name, title, about, image }) => {
 return (
     <div className="  crew-con">
-        <div className="crew-img">
-            <img src={image} alt="" />
-        </div>
-        <hr className="crew-line" />
         <div className="crew-det">
             <h4>{title}</h4>
             <h3>{name}</h3>
             <p>{about}</p>
+        <div className="crew-img">
+            <img src={image} alt="" />
+        </div>
+        <hr className="crew-line" />
         </div>
     </div>
 );
