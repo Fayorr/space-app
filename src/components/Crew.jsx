@@ -10,7 +10,11 @@ const Crew = () => {
          <Navbar />
       <div className="navigation navi">
         <h5>
+<<<<<<< HEAD
           <span>02</span> Meet your crew
+=======
+          <span>02</span> Meet your crew!
+>>>>>>> master
         </h5>
       </div>
       <CrewSlider />
