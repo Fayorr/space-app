@@ -1,0 +1,131 @@
+.img2 {
+    display: block;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.img1 {
+    display: none;
+
+}
+.tech-dett{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+    align-items: center;
+    padding: 0 3.6rem;
+}
+.tech-dett h6{
+    font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 2.3625px;
+        color: #D0D6F9;
+        text-transform: uppercase;
+        padding-bottom: .8rem;
+}
+.tech-dett h3{
+    font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 1.5rem;
+}
+.tech-dett p{
+font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #D0D6F9;
+    padding: 0rem 0 4rem;
+}
+
+@media (min-width: 769px) {
+.img2 {
+        display: block;
+        position: absolute;
+        top: 25%;
+        width: 100%;
+    }
+
+    .img1 {
+        display: none;
+    }
+         .tech-dett {
+            
+             padding: 0 10.6rem;
+         }
+}
+
+@media screen and (min-width: 900px) {
+    body{
+        position: relative;
+    }
+    .img1 {
+        display: block;
+        position: absolute;
+            top: 0%;
+            right: 0;
+            width: 40%;
+    }
+
+    .img2 {
+        display: none;
+    }
+    .tech-info {
+    
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-end; */
+        align-items: center;
+        /* gap: 10rem; */
+        margin: 0;
+        padding: 0;
+        /* background-color: green; */
+    position: absolute;
+    top: 36%;
+        right: 0;
+        width: 80%;
+        /* right: 0; */
+        height: 24.5rem;
+
+
+    
+    }
+
+    .tech-dett{
+        margin: 0;
+        width: 50%;
+        height: 70%;
+        padding: 0;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+        .tech-dett h6 {
+            text-align: left;
+           margin-bottom: .7rem;
+        }
+    
+        .tech-dett h3 {
+            text-align: left;
+            font-size: 3rem;
+        }
+    
+        .tech-dett p {
+            text-align: left;
+            padding-right: 6rem; 
+        }
+}
