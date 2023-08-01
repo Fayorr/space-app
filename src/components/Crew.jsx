@@ -10,7 +10,7 @@ const Crew = () => {
          <Navbar />
       <div className="navigation navi">
         <h5>
-          <span>02</span> Meet your crew
+          <span>02</span> Meet your crew!
         </h5>
       </div>
       <CrewSlider />
